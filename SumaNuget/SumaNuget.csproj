@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Jorge Diego</Authors>
+    <Company>Jorge Diego</Company>
+    <Description>A cross platform base framework to make sum operations</Description>
+    <PackageProjectUrl>https://github.com/jorgediegocrespo/SumaNuget</PackageProjectUrl>
+    <PackageTags>suma framework jorge diego crespo cross platform</PackageTags>
+    <PackageReleaseNotes>A cross platform base framework to make sum operations</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>E:\Projects\NugetPackageExample\SumaNuget\SumaNuget\SumaNuget.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
